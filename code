@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    long long z1, l1, a1;
+    cin >> z1 >> l1 >> a1;
+    
+    if(z1 == 28 and l1 == 2 and a1 % 4 == 0 and (a1 % 100 != 0 or a1 % 400 == 0))
+    {
+        cout << z1 + 1 << " "<< l1 << " " <<a1;
+    }
+    else
+    {
+    if(z1 == 31 and l1 == 1)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 28 and l1 == 2)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 3)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 30 and l1 == 4)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 5)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 30 and l1 == 6)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 7)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 8)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 30 and l1 == 9)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 10)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 30 and l1 == 11)
+    {
+        cout << 1 << " " << l1 + 1 << " " << a1;
+    }
+    else if(z1 == 31 and l1 == 12)
+    {
+        cout << 1 << " " << 1 << " " << a1 + 1;
+    }
+    else
+    {
+        cout << z1 + 1 << " " << l1 << " " << a1;
+    }
+    }
+}
